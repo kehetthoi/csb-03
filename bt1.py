@@ -12,45 +12,18 @@
 #birthdate = "01/02/2009"
 #print("Tên\t\t: "+ name)
 #print("Sinh nhật\t: "+ birthdate)
-"""
-def print_fireworks(year):
-    fireworks = [
-        "                      . : .",
-        "                    '.  :  .'",
-        "  HAPPY NEW YEAR   .  '.:.'  .",
-        "   !!! {} !!!    .  .':'.  .",
-        "                    .'  :  '.",
-        "                      ' : '"
-    ]
-    for line in fireworks:
-        
-            print(line.format(year))
-        
-
-
-def main():
-    year = input("What year is it?\n")
-    if len(year) == 4 and year.isdigit():
-        print_fireworks(year)
-    else:
-        print("nhập số tk ngu")
-
-
-if __name__ == "__main__":
-    main()
-"""
 '''
 from turtle import *
 pen
 forward(90)
 right(-120)
-forward(90)
-forward(90)
-right(-120)
-forward(90)
+forward(110)
 forward(90)
 right(-120)
+forward(110)
 forward(90)
+right(-120)
+forward(110)
 
 mainloop()
 '''
@@ -83,6 +56,7 @@ right(90)
 
 mainloop()
 '''
+'''
 from turtle import *
 pen
 forward(90)
@@ -106,6 +80,23 @@ forward(90)
 right(90)
 forward(90)
 mainloop()
+'''
+'''
+year = int(input("What year is it? \n"))
+if 0 < year < 10000:
+    print(
+         "                      . : . \n"
+         "                    '.  :  .' \n"
+         "  HAPPY NEW YEAR   .  '.:.'  . \n"
+        f"   !!!{year}!!!      .  .':'.  . \n"
+         "                    .'  :  '. \n"
+         "                      ' : '"
+    )
+    '''
+
+
+
+
 
 
 
