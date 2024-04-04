@@ -82,8 +82,8 @@ forward(90)
 mainloop()
 '''
 '''
-year = int(input("What year is it? \n"))
-if 0 < year < 10000:
+year = input("What year is it? \n")
+if len(year) == 4 and year.isdigit():
     print(
          "                      . : . \n"
          "                    '.  :  .' \n"
