@@ -75,18 +75,18 @@ else:
     print("Tháng không hợp lệ")
     '''
 '''
-a="admin"
-b="123456"
-c="abc@gmail.com"
+a=input("nhap ten")
+b=input("nhap mat khau")
+c=input("nhap email")
 print("ten:",a)
 print("mat khau:",b)
 print("email:",c)
 print("Registered successfully")
 '''
 '''
-a="admin"
-b="123456"
-c="abc@gmail.com"
+a=input("nhap ten")
+b=input("nhap mat khau")
+c=input("nhap email")
 d=input("nhap lai mat khau")
 print("ten:",a)
 if d==b:
@@ -96,29 +96,31 @@ else:
   print("mat khau ko chinh xac")
 print("email:",c)
 '''
-'''
-a="admin"
+
+
+a=input("nhap ten:")
 c=input("nhap email:")
 b=input("nhap mat khau:")
 x=len(b)
 d=input("nhap lai mat khau:")
 print("ten:",a)
 if x <= 8:
- print("mat khau khong hop le(nhieu hon 8 ky tu)")
+ print("mat khau khong hop le(phai nhieu hon 8 ky tu)")
 elif x>8:
  print("mat khau:",b)
 if d==b:
   print("mat khau:",b)
   print("mat khau nhap lai:",d)
 else:
-  print("mat khau ko chinh xac")
+  print("mat nhap lai khau ko chinh xac")
 y=c.find("@")
 z=c.find(".")
-if y!=-1 and z !=-1 and y<z:
+if y!=-1 and z !=-1 :
   print("email:",c)
 else:
   print("nhap lai email")
-  '''
+  
+  
   
 
 
