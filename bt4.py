@@ -36,15 +36,15 @@ for i in a:
 
 print("tong cac so", a, "=", b)
 '''
-print("cac so co tong chu so la 9:")
-a = 0
+# print("cac so co tong chu so la 9:")
+# a = 0
 
-for i in range(1000, 10000):
-    if sum(int(b) for b in str(i)) == 9:
-        print(i)
-        a += 1
-    if a == 10:
-        break
+# for i in range(1000, 10000):
+#     if sum(int(b) for b in str(i)) == 9:
+#         print(i)
+#         a += 1
+#     if a == 10:
+#         break
 
 
 
